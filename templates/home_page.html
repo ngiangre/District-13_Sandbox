@@ -1,0 +1,12 @@
+<html>
+<body>
+	<h1>Our Home Page</h1>
+	A list
+	<ul>
+		{% for i in range(num) %}
+			<li>bullet {{i}}</li>
+		{% endfor %}
+	</ul>
+</body>
+<script type='text/javascript' src="{{url_for('static', filename='js/home_page.js')}}"></script>
+</html>
