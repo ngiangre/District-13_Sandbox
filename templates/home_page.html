@@ -1,12 +1,16 @@
 <html>
 <body>
-	<h1>{{username}}</h1>
-	A list
-	<ul>
-		{% for i in range(num) %}
-			<li>bullet {{i}}</li>
+	<h1>{{id}}</h1>
+	<b>Demographic information<b>
+	<br>
+	<table style="width:100%">
+    	{% for k,v in patient.demographicsDictionary.items() %}
+			<tr>
+				<td>{{k}}</td>
+				<td>{{v}}</td>
+			</tr>
 		{% endfor %}
-	</ul>
+    </table>
 </body>
 <script type='text/javascript' src="{{url_for('static', filename='js/home_page.js')}}"></script>
 </html>

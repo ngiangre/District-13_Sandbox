@@ -1,4 +1,5 @@
 from fhirclient import client
+import requests
 import json
 
 class Patient:
@@ -13,6 +14,7 @@ class Patient:
 		'Authorization': 'Basic aW50ZXJvcF9waXQ6VkwybExZNUhoTFpVOHozak02VkJvQ1d0NFMyRDlsZkZWSTVX'
 		}
 		self.getPatientData()
+		self.extractPatientDemographics()
 
 	def makeResourceUrl(self,resource="Careplan"):
 
@@ -32,7 +34,7 @@ class Patient:
 		"Family name" : self.patient_data['name'][0]['family'],
 		"Birthdate" : self.patient_data['birthDate'],
 		"Sex" : self.patient_data['gender'].title(),
-		"Street" : self.patient_data["address"][0]["line"],
+		"Street" : self.patient_data["address"][0]["line"][0],
 		"City" : self.patient_data["address"][0]["city"],
 		"State" : self.patient_data["address"][0]["state"],
 		"Country" : self.patient_data["address"][0]["country"]
