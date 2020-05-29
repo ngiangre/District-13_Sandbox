@@ -143,14 +143,26 @@
     object-fit: contain;
 }
 
-.icon_dependants {
+.icon-dependants {
     width: 22px;
     height: 24px;
     object-fit: contain;
 }
 
-.icon_treatments {
+.icon-treatments {
     width: 22px;
     height: 24px;
+    object-fit: contain;
+}
+
+.icon-care-team {
+    width: 24px;
+    height: 16px;
+    object-fit: contain;
+}
+
+.icon-logo {
+    width: 37px;
+    height: 41px;
     object-fit: contain;
 }
