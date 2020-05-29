@@ -17,6 +17,10 @@
     background-color: #7ac44b;
 }
 
+/*
+*   Here are the boxes on the screen by size/use
+*/
+
 .Profile-Box {
     width: 297px;
     height: 297px;
@@ -40,21 +44,29 @@
     background-color: #ffffff;
 }
 
-.Text-Bold {
-    width: 99px;
-    height: 16px;
-    font-family: Lato;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #000000;
+.Smaller-Box {
+    width: 324px;
+    height: 331px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.Longer-Box {
+    width: 675px;
+    height: 331px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.Checkmark {
+    width: 16.7px;
+    height: 11px;
+    border: solid 3px #7ac44b;
 }
 
 /*  Header 1 is smaller blue text
  *  Header 2 is bigger blue text
+ *  Header 3 is the big text at the top of the screen
 */
 
 .Header-1 {
@@ -83,6 +95,19 @@
     color: #047ee2;
 }
 
+.Header-3 {
+    width: 205px;
+    height: 21px;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0d3556;
+}
+
 .Text-White {
     width: 123px;
     height: 16px;
@@ -95,6 +120,19 @@
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+}
+
+.Text-Bold {
+    width: 99px;
+    height: 16px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
 }
 
 .Text-Grey {
@@ -137,6 +175,10 @@
     color: #ffffff;
 }
 
+/* 
+* ICONS
+*/
+
 .icon-account {
     width: 24px;
     height: 24px;
@@ -158,6 +200,12 @@
 .icon-care-team {
     width: 24px;
     height: 16px;
+    object-fit: contain;
+}
+
+.icon-medication {
+    width: 27px;
+    height: 27px;
     object-fit: contain;
 }
 
