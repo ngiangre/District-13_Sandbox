@@ -1,0 +1,26 @@
+.Dashboard {
+    width: 1440px;
+    height: 985px;
+    background-color: #eaf1f6;
+}
+
+.Taskbar {
+    width: 1440px;
+    height: 102px;
+    background-color: #0d3556;
+}
+
+.Button {
+    width: 163px;
+    height: 41px;
+    border-radius: 3px;
+    background-color: #7ac44b;
+}
+
+.Profile-Box {
+    width: 297px;
+    height: 297px;
+    border-radius: 8px;
+    box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.45);
+    background-image: linear-gradient(to bottom, #1e658f, #0d3556);
+}
