@@ -1,3 +1,5 @@
 flask
 flask-testing
 nose
+requests
+fhirclient
