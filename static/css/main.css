@@ -1,4 +1,4 @@
-.Dashboard {
+.Background {
     width: 1440px;
     height: 985px;
     background-color: #eaf1f6;
@@ -53,6 +53,36 @@
     color: #000000;
 }
 
+/*  Header 1 is smaller blue text
+ *  Header 2 is bigger blue text
+*/
+
+.Header-1 {
+    width: 143px;
+    height: 18px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #047ee2;
+}
+
+.Header-2 {
+    width: 176px;
+    height: 23px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #047ee2;
+}
+
 .Text-White {
     width: 123px;
     height: 16px;
@@ -67,7 +97,20 @@
     color: #ffffff;
 }
 
-.Sarah-Thompson {
+.Text-Grey {
+    width: 133px;
+    height: 34px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6f6f6f;
+}
+
+.Name {
     width: 127px;
     height: 21px;
     font-family: Lato;
