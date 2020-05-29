@@ -8,6 +8,3 @@ def display_home_page():
 	patient = Patient()
 	return render_template('home_page.html',num=10, id=patient.id, patient=patient)
 
-@home_view.route('/about/')
-def about():
-    return render_template('about.html')
