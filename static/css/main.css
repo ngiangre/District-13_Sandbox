@@ -110,6 +110,20 @@
     color: #6f6f6f;
 }
 
+.Text-Taskbar {
+    width: 123px;
+    height: 17px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
 .Name {
     width: 127px;
     height: 21px;
@@ -121,4 +135,22 @@
     line-height: normal;
     letter-spacing: normal;
     color: #ffffff;
+}
+
+.icon-account {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.icon_dependants {
+    width: 22px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.icon_treatments {
+    width: 22px;
+    height: 24px;
+    object-fit: contain;
 }
