@@ -24,3 +24,58 @@
     box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.45);
     background-image: linear-gradient(to bottom, #1e658f, #0d3556);
 }
+
+.Profile-Box-Shadow {
+    width: 297px;
+    height: 297px;
+    border-radius: 8px;
+    box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.45);
+    background-image: linear-gradient(to bottom, #1e658f, #0d3556);
+}
+
+.Personal-Information-Box {
+    width: 297px;
+    height: 424px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.Text-Bold {
+    width: 99px;
+    height: 16px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.Text-White {
+    width: 123px;
+    height: 16px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Sarah-Thompson {
+    width: 127px;
+    height: 21px;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
